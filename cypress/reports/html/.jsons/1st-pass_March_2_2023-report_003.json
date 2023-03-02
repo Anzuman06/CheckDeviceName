@@ -1,0 +1,89 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-03-02T07:09:25.424Z",
+    "end": "2023-03-02T07:09:39.279Z",
+    "duration": 13855,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9d9dceec-984b-4608-8106-bc7e34556fac",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1st.cy.js",
+      "file": "cypress\\e2e\\1st.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Log in to Canary",
+          "fullTitle": "Log in to Canary",
+          "timedOut": null,
+          "duration": 13597,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://canary.api.meld.cx/login'), cy.get(':nth-child(2) > span > input').type(Cypress.env('email')), cy.get(':nth-child(3) > span > input').type(Cypress.env('password')), cy.get('.glow > span').click(),\n//cy.get('.nav-bar-burger').click(),\ncy.get('.devices-recent > .content'), cy.get('[href=\"/device/3929\"] > span.ellipsis').click(), cy.get(':nth-child(2) > :nth-child(2) > .label'), cy.get(':nth-child(2) > :nth-child(2) > input').should('have.value', Cypress.env('chromedevicename'));",
+          "err": {},
+          "uuid": "ba88a40b-49b2-4f50-8859-16dd1f92d5ec",
+          "parentUUID": "9d9dceec-984b-4608-8106-bc7e34556fac",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "ba88a40b-49b2-4f50-8859-16dd1f92d5ec"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 13597,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-[status]_[datetime]-report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[name]-[status]_[datetime]-report",
+        "timestamp": "longDate",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "inlineAssets": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
