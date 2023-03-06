@@ -3,11 +3,9 @@ it('Log in to Canary', function(){
   cy.get(':nth-child(2) > span > input').type(Cypress.env('email')),
   cy.get(':nth-child(3) > span > input').type(Cypress.env('password')),
   cy.get('.glow > span').click(),
-  //cy.get('.nav-bar-burger').click(),
   cy.get('.devices-recent > .content'),
   cy.get('[href="/device/3929"] > span.ellipsis').click(),
   cy.get(':nth-child(2) > :nth-child(2) > .label'),
   cy.get(':nth-child(2) > :nth-child(2) > input').should('have.value', Cypress.env('chromedevicename'))
-
 })
 
