@@ -7,7 +7,7 @@ This project is on basis of the task "Create a cypress auto test plan from scrat
 
 
 # Running the tests from command line
-Navigate to the e2e folder where the spec files(1st and 2nd) were included and run the following:
+Navigate to the e2e folder where the spec files(1st and 2nd) are included and run the following:
 
     npx cypress run --headed --spec .\cypress\e2e\#.cy.js
 
