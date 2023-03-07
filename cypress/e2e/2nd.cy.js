@@ -1,4 +1,4 @@
-it("Go to logs and download Payments logs", function(){
+it("Log in to Canary and check the device name in device details form", function(){
     cy.visit('https://canary.api.meld.cx/login'),
 cy.get(':nth-child(2) > span > input').type(Cypress.env('email')),
 cy.get(':nth-child(3) > span > input').type(Cypress.env('password')),
