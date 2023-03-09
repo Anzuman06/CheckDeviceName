@@ -13,10 +13,17 @@ Navigate to the e2e folder where the spec files(1st and 2nd) are included and ru
 
 
 
-https://user-images.githubusercontent.com/114046009/222407100-84de8e5d-2cef-4a58-9d50-61beab0c2e2b.mp4
+
+https://user-images.githubusercontent.com/114046009/223914451-30dada3d-86a2-464c-949d-a9937c98ad51.mp4
 
 
 
-https://user-images.githubusercontent.com/114046009/223091990-dd0c652c-7db0-46fd-b43e-e82e66f81864.mp4
+
+https://user-images.githubusercontent.com/114046009/223914502-81905ca5-cb91-43da-a862-adf935025c3d.mp4
+
+
+
+
+
 
 
